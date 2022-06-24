@@ -1,7 +1,5 @@
-// get express and our server running
-
 if (process.env.NODE_ENV !== 'production') {
-  require('dotenv').config() // https://github.com/WebDevSimplified/Mybrary/issues/1
+  require('dotenv').load()
 }
 
 const express = require('express')
